@@ -5,4 +5,4 @@ def test_home():
     response = client.get("/")
 
     assert response.status_code == 200
-    assert b"Hello" in response.data
+    assert b"AI Assistant" in response.data
